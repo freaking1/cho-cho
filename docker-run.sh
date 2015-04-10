@@ -2,9 +2,9 @@
 
 docker run \
 	--interactive \
-	--name='docker-phalcon' \
+	--name='phalcon' \
 	--publish='80:80' \
 	--rm \
 	--tty \
 	--volume="$PWD/src/:/var/www/html/" \
-	'smutdose/docker-phalcon'
+	'smutdose/phalcon'
